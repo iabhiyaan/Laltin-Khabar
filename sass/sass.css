@@ -1,0 +1,184 @@
+#pradesh .heading-divider {
+  width: 4%;
+}
+
+#pradesh .card {
+  width: 15%;
+}
+
+#pradesh .card .card-img {
+  min-height: 90px;
+}
+
+#pradesh .card-img img {
+  height: 90px;
+}
+
+#pradesh .card-body h3 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+#entertainment {
+  margin-bottom: 1rem;
+}
+
+#entertainment .imp-khabar-img {
+  min-height: 430px;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.137)), to(rgba(0, 0, 0, 0.541))), url("../img/aryan.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.137), rgba(0, 0, 0, 0.541)), url("../img/aryan.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  padding: 23px;
+}
+
+#entertainment .imp-khabar-img h3 {
+  font-size: 3rem;
+}
+
+#entertainment .imp-khabar-img p a {
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+#secondary-story .story--top__item {
+  height: 250px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  padding: 16px;
+}
+
+#secondary-story .story--top__item a {
+  color: #fff;
+}
+
+#secondary-story .secondary-stories--item img {
+  width: 100%;
+}
+
+#secondary-story .--left {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.26)), to(rgba(0, 0, 0, 0.5))), url("../img/education.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.26), rgba(0, 0, 0, 0.5)), url("../img/education.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+#secondary-story .--right {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.26)), to(rgba(0, 0, 0, 0.5))), url("../img/mike-person.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.26), rgba(0, 0, 0, 0.5)), url("../img/mike-person.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+#international .heading-divider {
+  width: 4%;
+}
+
+#international .card {
+  background: #fff;
+  min-height: 328px;
+  margin-bottom: 2rem;
+}
+
+#international .card .card-img img {
+  height: 200px;
+  width: 100%;
+}
+
+#international .card .card-detail {
+  padding: 1rem;
+}
+
+#international .card .card-detail a {
+  color: #1d1c1c;
+}
+
+#footer-area {
+  background: #1F2125;
+  color: #fff;
+  padding: 5rem 0;
+}
+
+#footer-area [class^="col"] {
+  padding-top: 1rem;
+  margin-bottom: 1.4rem;
+}
+
+#footer-area .footer-logo p {
+  padding-top: 3rem;
+}
+
+#footer-area .footer-nav {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#footer-area .footer-nav li {
+  padding: .7rem 4rem;
+}
+
+#footer-area .footer-nav li a {
+  color: #fff;
+}
+
+#footer-area .last-nav p {
+  display: inline-block;
+}
+
+#footer-area .last-nav a {
+  padding-left: 12px;
+  color: #fff;
+}
+
+#footer-area .socials-icons i {
+  font-size: 30px;
+  width: 50px;
+  height: 100%;
+  text-align: center;
+  line-height: 50px;
+  display: inline-block;
+  border-radius: 4px;
+  color: #fff;
+}
+
+#footer-area .socials-icons .facebook {
+  background: #3b5999;
+}
+
+#footer-area .socials-icons .youtube {
+  background: #cd201f;
+}
+
+#footer-area .socials-icons .twitter {
+  background: #55acee;
+}
+
+#footer {
+  background: #121314;
+  color: #fff;
+}
+
+#footer p {
+  font-size: 1.7rem;
+  height: 60px;
+  line-height: 70px;
+}
+/*# sourceMappingURL=sass.css.map */

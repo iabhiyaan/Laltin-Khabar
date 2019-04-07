@@ -1,0 +1,12 @@
+@media only screen and (max-width: 991px) {
+    .socials-icons {
+        text-align: left;
+    }
+}
+
+@media (max-width: 991px) {
+    #footer-area .socials-icons,
+    .last-nav{
+        text-align: center;
+    }
+}

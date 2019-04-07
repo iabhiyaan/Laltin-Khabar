@@ -1,0 +1,404 @@
+@import url('https://fonts.googleapis.com/css?family=Mukta:300,400,500,700');
+body {
+    font-family: 'Mukta', sans-serif;
+    background: #F5F5F5;
+}
+
+/* Utility Classes */
+
+.display-1 {
+    font-size: 4rem;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.bg-white {
+    background: #fff;
+}
+
+.px-20 {
+    padding: 0 20px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+/* General Styling */
+
+.top-bar {
+    background: #3a3a3a;
+    color: #fff;
+    min-height: 50px;
+    /* line-height: 50px; */
+}
+
+.top-bar .socials-icons i {
+    font-size: 30px;
+    width: 50px;
+    height: 100%;
+    text-align: center;
+    line-height: 50px;
+    display: inline-block;
+}
+
+.top-bar .facebook {
+    background: #3b5999;
+    color: #fff;
+}
+
+.top-bar .youtube {
+    background: #cd201f;
+    color: #fff;
+}
+
+.top-bar .twitter {
+    background: #55acee;
+    color: #fff;
+}
+
+#logo-bar {
+    padding: 2rem 0;
+    background: #fff;
+}
+
+nav {
+    box-sizing: border-box;
+    min-height: 40px !important;
+}
+
+.home {
+    font-size: 20px;
+    color: #fff;
+}
+
+.navbar {
+    border-radius: 0;
+}
+
+.navbar a {
+    color: #fff;
+    font-weight: bold;
+    font-size: 2rem;
+    border-bottom: 4px solid #337AB7;
+}
+
+.navbar-toggle .icon-bar {
+    background: #fff !important;
+}
+
+.nav li a:hover {
+    background: none;
+    box-sizing: border-box;
+    border-bottom: 4px solid #fff;
+}
+
+#marquee {
+    background: #fff;
+}
+
+.flash-container {
+    display: inline-block;
+    background: #f32d2d;
+    padding: 1rem;
+}
+
+.balls {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin-right: 5px;
+    position: relative;
+    vertical-align: middle;
+}
+
+/* bounce animation */
+
+@keyframes sk-bounce {
+    0%, 100% {
+        transform: scale(0.0);
+        -webkit-transform: scale(0.0);
+    }
+    50% {
+        transform: scale(1.0);
+        -webkit-transform: scale(1.0);
+    }
+}
+
+.bounce {
+    background: #fff;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    opacity: 0.7;
+    position: absolute;
+    top: -2px;
+    left: 0;
+    -webkit-animation: sk-bounce 2.0s infinite ease-in-out;
+    animation: sk-bounce 2.0s infinite ease-in-out;
+}
+
+.bounce--delay {
+    animation-delay: -1.0s;
+}
+
+#main h3 a {
+    text-decoration: none;
+    color: #404040;
+}
+
+#main h3 a:hover {
+    color: #BB1919
+}
+
+.main-img {
+    padding: 50px 0;
+    border-bottom: 1px dotted #404040;
+}
+
+.taja-hot-khabar {
+    padding: 50px 0;
+}
+
+.taja-hot-khabar h3 {
+    color: #BB1919;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.heading-divider {
+    width: 10%;
+    height: 3px;
+    background: #BB1919;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.imp-khabar-img {
+    min-height: 430px;
+    background: linear-gradient(rgba(0, 0, 0, 0.137), rgba(0, 0, 0, 0.541)), url('../img/kp-prachanda.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    padding: 13px;
+}
+
+.imp-khabar-img img {
+    filter: contrast(70%);
+}
+
+.imp-khabar-img h3 {
+    align-self: flex-end;
+}
+
+.imp-khabar-img h3 a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.chevron i {
+    width: 25px;
+    height: 25px;
+    background: #fff;
+    line-height: 25px;
+    border-radius: 4px;
+    display: inline-block;
+    text-align: center;
+}
+
+.pl-0 .col-md-6 {
+    padding-left: 0;
+}
+
+.imp-posts {
+    padding-top: 25px;
+}
+
+#highlight .highlight__img {
+    min-height: 206px;
+    min-width: 226px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-right: 12px;
+}
+
+.hi--f {
+    background: linear-gradient(rgba(0, 0, 0, 0.281), rgba(0, 0, 0, 0.507)), url('../img/kp-prachanda.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 16px;
+    padding-bottom: 10px;
+}
+
+.hi--s {
+    background: linear-gradient(rgba(0, 0, 0, 0.281), rgba(0, 0, 0, 0.507)), url('../img/kp-prachanda.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 10px;
+}
+
+#highlight .highlight__img a {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+#highlight img {
+    filter: contrast(60%);
+}
+
+.imp-post img {
+    height: 250px;
+    filter: contrast(70%);
+}
+
+.post-1 img, .post-2 img {
+    position: relative;
+}
+
+.post-1 h3 {
+    position: absolute;
+    top: 242px;
+    left: 30px;
+}
+
+.post-2 h3 {
+    position: absolute;
+    left: 30px;
+    bottom: 0;
+}
+
+.imp-post h3 a {
+    color: #fff !important;
+}
+
+.bottom {
+    position: absolute;
+    bottom: 10px;
+    left: 30px;
+}
+
+.card .img-caption {
+    font-size: 2rem;
+    color: #fff;
+    text-decoration: none;
+}
+
+#last-post .col:not(:last-child) {
+    margin-bottom: 12px;
+}
+
+#last-post .card {
+    min-height: 135px;
+}
+
+#last-post .card img {
+    height: inherit;
+}
+
+.card-title a {
+    font-size: 2rem;
+    color: #000;
+}
+
+#last-post .card-title {
+    width: 70%;
+    align-self: center;
+    padding-left: 10px;
+}
+
+.bg-img {
+    width: 30%;
+    background: url('../img/BIPLOB-150x150.jfif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    align-items: flex-end;
+}
+
+.post-count {
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    background: red;
+    color: #fff;
+    text-align: center;
+}
+
+#story .heading-divider {
+    width: 4%;
+    height: 3px;
+    background: #BB1919;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#story .card {
+    background: #fff;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+#story .card h3 {
+    padding: 5px 10px;
+}
+
+#story .row:first-child {
+    padding: 0 20px;
+}
+
+.story--top__item {
+    background: url('../img/cow-1-1.jpg');
+    height: 250px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: flex;
+}
+
+.bg-second {
+    background: url('../img/anupraj-sharma.jpg');
+    height: 250px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.story--top__item h3 {
+    color: #fff;
+    align-self: flex-end;
+    padding: 10px 20px;
+}
+
+.secondary-stories--item {
+    background: #fff;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.ssi-img {
+    min-height: 150px;
+    width: 50%;
+    margin-right: 20px;
+}
+
+.ssi-img img {
+    height: 150px;
+}
+
+.ssi-detail {
+    width: 50%;
+    padding: 0 12px;
+}
+

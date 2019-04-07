@@ -1,0 +1,180 @@
+#pradesh {
+    .heading-divider {
+        width: 4%;
+    }
+
+    .card {
+        width: 15%;
+    }
+
+    .card .card-img {
+        min-height: 90px;
+    }
+
+    .card-img img {
+        height: 90px;
+    }
+    .card-body h3 {
+        font-size: 2rem;
+        font-weight: bold;
+    }
+}
+
+#entertainment {
+    margin-bottom: 1rem;
+
+    .imp-khabar-img {
+        min-height: 430px;
+        background: linear-gradient(rgba(0, 0, 0, 0.137), rgba(0, 0, 0, 0.541)), url('../img/aryan.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: flex-start;
+        align-items: flex-end;
+        padding: 23px;
+
+        h3 {
+            font-size: 3rem;
+        }
+        p a{
+            font-size: 1.5rem;
+            color: #fff;
+        }
+    }
+    
+}
+
+#secondary-story {
+    .story--top__item {
+        
+        height: 250px;       
+        display: flex;
+        align-items: flex-end;
+        padding: 16px; 
+        
+        a {
+            color: #fff;
+        }
+    }
+    .secondary-stories--item img {
+        width: 100%;
+    }
+
+    .--left {
+        background: linear-gradient(rgba(0, 0, 0, 0.26),rgba(0, 0, 0, 0.5)),url('../img/education.jpg');
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+
+    .--right {
+        background: linear-gradient(rgba(0, 0, 0, 0.26),rgba(0, 0, 0, 0.5)),url('../img/mike-person.jpg');
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+}
+
+#international {
+    .heading-divider {
+        width: 4%;
+    }
+    .card {
+        background: #fff;
+        min-height: 328px;
+        margin-bottom: 2rem;
+
+        .card-img img {
+            height: 200px;
+            width: 100%;
+        }
+
+        .card-detail {
+            padding: 1rem;
+
+            a {
+                color: #1d1c1c;
+            }
+        }
+    }
+}
+
+#footer-area {
+    background: #1F2125;
+    color: #fff;
+    padding: 5rem 0;
+
+    [class^="col"] {
+        padding-top: 1rem;
+        margin-bottom: 1.4rem;
+    }
+    .footer-logo {
+
+        p {
+            padding-top: 3rem;
+        }
+    }
+
+    .footer-nav {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+
+        li {
+            padding: .7rem 4rem;
+
+            a {
+                color: #fff;
+            }
+        }
+    }
+
+    .last-nav {
+        
+        p {
+            display: inline-block;
+        }
+        a {
+            padding-left: 12px;
+            color: #fff;
+        }
+    }
+
+    .socials-icons {
+        i {
+            font-size: 30px;
+            width: 50px;
+            height: 100%;
+            text-align: center;
+            line-height: 50px;
+            display: inline-block;
+            border-radius: 4px;
+            color: #fff;
+        }
+
+        .facebook {
+            background: #3b5999;
+        }
+        
+        .youtube {
+            background: #cd201f;
+        }
+        
+        .twitter {
+            background: #55acee;
+        }
+    }
+}
+
+#footer {
+    background: #121314;
+    color: #fff;
+
+    p {
+        font-size: 1.7rem;
+        height: 60px;
+        line-height: 70px;
+    }
+}
